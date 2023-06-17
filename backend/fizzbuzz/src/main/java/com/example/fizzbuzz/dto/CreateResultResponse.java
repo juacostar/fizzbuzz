@@ -4,7 +4,6 @@ public class CreateResultResponse {
 
     private String timestamp;
     private String code;
-    private String error;
     private String description;
     private String list;
 
@@ -39,13 +38,5 @@ public class CreateResultResponse {
 
     public void setList(String list) {
         this.list = list;
-    }
-
-    public String getError() {
-        return error;
-    }
-
-    public void setError(String error) {
-        this.error = error;
     }
 }
